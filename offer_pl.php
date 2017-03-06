@@ -15,15 +15,7 @@
                 <div id="head-right">
                 	<?php require("/includes/langs_bg.html"); ?>
                     <div class="cl no-text"><!-- --></div>
-                    <div id="menu">
-                    	<ul>
-                        	<li><a href="home_pl.php">Strona Glówna</a></li>
-                        	<li><a href="destinations_pl.php">Linie</a></li>
-                        	<li><a href="actual_pl.php">Aktualności</a></li>
-                        	<li><a href="offer_pl.php" class="active">Oferta</a></li>
-                        	<li class="last"><a href="contacts_pl.php">Kontakt</a></li>
-                        </ul>
-                    </div>
+                    <?php require("/includes/menu-top/pl_offer.html"); ?>
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
@@ -49,7 +41,7 @@
                     	<h1>Oferta</h1>
                     </div>
                     <div id="page-text">
-						<p>TOURING Bus zajmuje się krajowym i międzynarodowym transportem osób. Oprócz regularnych linii, oferujemy także wynajem autokarów. Dysponujemy autokarami następujących marek: <b>MERCEDES &ndash; 44 miejsc handlowych, BOVA &ndash; 49 miejsc handlowych i EOS &ndash; 57 miejsc handlowych.</b></p>
+						<p>TOURING Bus zajmuje się krajowym i międzynarodowym transportem osób. Oprócz regularnych linii, oferujemy także wynajem autokarów. Dysponujemy autokarami marek: <b>LANHOL &ndash; 49 miejsc handlowych i SETRA &ndash; 24 miejsca handlowe.</b></p>
                     </div>
                 </div>
                 <div class="cl no-text"><!-- --></div>
