@@ -15,15 +15,7 @@
                 <div id="head-right">
                 	<?php require("/includes/langs_bg.html"); ?>
                     <div class="cl no-text"><!-- --></div>
-                    <div id="menu">
-                    	<ul>
-                        	<li><a href="home_en.php">Home</a></li>
-                        	<li><a href="destinations_en.php" class="active">Destinations</a></li>
-                        	<li><a href="actual_en.php">Connections</a></li>
-                        	<li><a href="offer_en.php">Offer</a></li>
-                        	<li class="last"><a href="contacts_en.php">Contacts</a></li>
-                        </ul>
-                    </div>
+                   <?php require("/includes/menu-top/en_destinations.html"); ?>
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
