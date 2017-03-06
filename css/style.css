@@ -1,0 +1,150 @@
+﻿/* --- START COMMON CSS	---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	*{margin:0; padding:0;}
+	a{text-decoration:none; outline:none;}
+	a img{border:0;}
+	
+	.cl{font-size:0; line-height:0; clear:both;}
+	.no-text{text-indent:-9999px; font-size:0; line-height:0;}
+	.fl{float:left;}
+	.fr{float:right;}
+	.db{display:block;}
+	.di{display:inline;}
+	.dn{display:none;}
+	.relative{position:relative;}
+	input{font-size:12px; color:#373737; font-family:Arial;}
+	textarea{font-size:12px; color:#373737; font-family:Arial;}
+/* --- END COMMON CSS ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* --- START BODY & SHELL -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	body{font-size:12px; font-family:Arial; line-height:18px; letter-spacing:0px; color:#fff;}
+	#home{background:#0d4f4e url(images/bg-home.jpg) top no-repeat;}
+	#inner{background:#0d4f4e url(images/bg-inner.jpg) top no-repeat;}
+	
+	#shell{width:924px; margin:0 auto 50px;}
+/* --- END BODY & SHELL ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --- START HOME ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#langs-home{width:400px; margin:300px 0 0 312px; height:130px;}
+	#langs-home a{display:inline; float:left; width:100px; height:30px; padding-top:100px; line-height:30px; font-size:25px; color:#fff; font-weight:bold; text-align:center;}
+	#langs-home a:hover{opacity:0.8; filter:alpha(opacity = 80); color:#f7d012;}
+	#langs-home a.bg{background:url(images/langs-home.png) 0 0 no-repeat;}
+	#langs-home a.pl{background:url(images/langs-home.png) -100px 0 no-repeat;}
+	#langs-home a.cz{background:url(images/langs-home.png) -200px 0 no-repeat;}
+	#langs-home a.en{background:url(images/langs-home.png) -300px 0 no-repeat;}
+/* --- END HOME ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* --- START HEADER -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#header{height:112px;}
+	
+	h1#logo{width:286px; height:60px; margin-top:35px; float:left;}
+	h1#logo a{display:block; width:286px; height:60px;}
+	
+	#head-right{float:right; width:614px;}
+	#langs{height:45px; margin:8px 12px 0 0; float:right; display:inline;}
+	#langs a{display:inline; width:28px; height:28px; float:left; margin-left:12px;}
+	#langs a:hover{background:#000; opacity:0.1; filter:alpha(opacity = 10);}
+	
+	#menu{width:614px; height:40px;}
+	#menu ul{list-style:none;}
+	#menu ul li{float:left; width:120px; text-align:center; padding-right:2px; height:40px; background:url(images/menu-div.png) right no-repeat;}
+	#menu ul li.last{background:none; padding-right:0;}
+	#menu ul li a{line-height:40px; font-size:14px; font-weight:normal; color:#fff;}
+	#menu ul li a:hover, #menu ul li a.active{color:#f59800;}
+/* --- END HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --- START CENTER -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#content{width:924px; margin-top:20px;}
+	#left{width:270px; margin-left:20px; float:left; display:inline;}
+	#right{width:610px; float:right; display:inline;}
+	
+	#under-construction{color:#fff; padding:0 10px 20px 20px;}
+	
+	#left .box{width:270px; margin-bottom:20px; background:url(images/left-box.png) bottom no-repeat; padding-bottom:10px;}
+	#left .box h1{width:250px; padding:0 0 0 20px; line-height:48px; height:48px; font-family:Century Gothic; font-size:14px; text-transform:uppercase; font-weight:normal; color:#052a34;}
+	#left .box ul{list-style:none; padding:10px 20px 0;}
+	#left .box ul li{padding-left:20px; height:13px; margin:0 0 5px 0; color:#d9d9d9; line-height:13px; font-size:12px;}
+	#left .box ul li a{color:#f59800;}
+	#left .box ul li a:hover{text-decoration:underline;}
+	#weather h1{background:url(images/left-weather-head.png);}
+	#weather ul li{background:url(images/left-weather-bullet.png) left no-repeat;}
+	#readmore h1{background:url(images/left-readmore-head.png);}
+	#readmore ul li{background:url(images/left-readmore-bullet.png) left no-repeat;}
+	
+	#left-contacts{color:#fff; padding:0 0 20px 20px;}
+	#left-contacts p{line-height:18px;}
+	#left-contacts p a{color:#f59800;}
+	#left-contacts p a:hover{text-decoration:underline;}
+	
+	#crumb, #crumb2{line-height:30px; height:50px; padding-bottom:10px;}
+	#crumb2{margin-top:20px;}
+	#crumb h1, #crumb2 h1{font-weight:bold; font-size:18px; line-height:30px; color:#fff;}
+	#crumb h2, #crumb2 h2{font-weight:bold; font-size:16px; line-height:20px; color:#fff;}
+	#crumb h3, #crumb2 h3{font-weight:normal; font-size:10px; font-style:italic; line-height:20px; color:#379695;}
+	#crumb img, #crumb2 img{padding:0 10px; vertical-align:middle;}
+	
+	#page-text{
+	padding:0 0 20px 0;
+	text-align:left;
+}
+	#page-text p{padding-bottom:10px;}
+	#page-text a{color:#f59800;}
+	#page-text a:hover{
+	text-decoration:underline;
+	text-align: left;
+}
+	#page-text ul{padding:0 0 10px 30px;}
+	#page-text h1{font-size:14px; font-weight:bold; line-height:18px;}
+	#page-text h2{font-size:12px; font-weight:bold; line-height:14px;}
+	
+	.contacts-cell{width:300px; float:left; margin-bottom:10px;}
+	.contacts-form{width:300px; float:left; margin-bottom:10px;}
+	.contacts-form .row{height:20px; line-height:20px; padding:3px 0;}
+	.contacts-form .row .cell1, .contacts-form .row-textarea .cell1{float:left; width:100px;}
+	.contacts-form .row .cell2, .contacts-form .row-textarea .cell2{float:left; width:200px;}
+	.contacts-form .row .cell2 input.text{width:198px; height:18px; border:1px solid #ccc; background:#eee;}
+	.contacts-form .row .cell2 input.submit{width:200px; height:20px; border:none; background:url(images/form-submit.png); cursor:pointer; color:#052A34; font-weight:bold; text-transform:uppercase;}
+	.contacts-form .row .cell2 input.error, .contacts-form .row-textarea .cell2 textarea.error{border:1px solid red;}
+	.contacts-form .row-textarea{height:100px; padding:3px 0; line-height:20px;}
+	.contacts-form .row-textarea .cell2 textarea{width:198px; height:98px; border:1px solid #ccc; background:#eee;}
+	
+	a.gallery-pic{margin:20px 10px 0; width:275px; height:206px; display:block; float:left; border:1px solid #073433;}
+	a:hover.gallery-pic{opacity:0.8; filter:alpha(opacity = 80); border:1px solid #fff;}
+	
+	table.main-dest{margin-bottom:30px;}
+	table.destinations{width:100%; border:none;}
+	table.dest-prices{margin-bottom:15px!important; border:1px solid #F59800!important;}
+	table.destinations th, table.destinations tf{padding:5px; background:#094241 url(images/destinations-line.png) bottom no-repeat; font-weight:bold; text-align:left; font-size:14px; color:#89b9c5;}
+	table.destinations td{padding:5px; background:url(images/destinations-line.png) bottom no-repeat;}
+	table.destinations .orange{color:#f59800!important;}
+	table.destinations .aqua{color:#379695!important;}
+	table.destinations .lblue{color:#89b9c5!important;}
+	table.destinations .white{color:#fff!important;}
+	
+	table.destinations .bold{font-weight:bold;}
+	table.destinations .bold-big{font-size:14px; font-weight:bold;}
+	.taright, .taright th, .taright tf{text-align:right!important;}
+	
+	table.destinations .bg{background:#094241 url(images/destinations-line.png) bottom no-repeat;}
+	table.destinations .bg-nb{background:#094241;}
+	table.destinations .bg-aqua{background:#379695;}
+	table.destinations .title{font-size:18px; font-weight:bold; text-align:center; line-height:24px;}
+	table.destinations .subtitle{font-size:14px; font-weight:bold; text-align:center;}
+	table.destinations .small{font-size:10px; font-weight:normal;}
+	table.destinations .price{font-size:14px; font-weight:bold; text-align:center;}
+	table.destinations .people{font-weight:bold; font-size:10px; line-height:28px;}
+	table.destinations .asar{font-size:14px; font-weight:bold;}
+	table.destinations .border-right{border-right:1px solid #166a69;}
+	
+	#prices-legend{margin-top:20px; font-size:12px;}
+	#prices-legend .row{height:24px; line-height:24px;}
+	#prices-legend .row .cell1{width:200px; float:left;}
+	#prices-legend .row .cell2{width:400px; float:left;}
+	#prices-legend .small{font-size:10px;}
+	
+	#days{font-size:12px; font-style:italic; color:#fff; margin:20px 0 10px;}
+	#days .cell{width:150px; float:left;}
+/* --- END CENTER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --- END FOOTER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#footer{margin-top:10px; padding-top:15px; background:url(images/footer.png) top no-repeat; width:924px; height:12px; line-height:12px;}
+	#footer ul{list-style:none; height:12px; float:right;}
+	#footer ul li{height:12px; padding:0 25px; border-right:1px solid #5e8a95; float:left;}
+	#footer ul li.last{border-right:none; padding:0 0 0 25px;}
+	#footer ul li a{color:#5e8a95; display:block;}
+	#footer ul li a:hover{color:#f59800;}
+/* --- END FOOTER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
