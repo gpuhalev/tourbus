@@ -109,15 +109,7 @@
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
-            <div id="footer">
-            	<ul>
-                    <li><a href="home_pl.php">Strona Glówna</a></li>
-                    <li><a href="destinations_pl.php">Linie</a></li>
-                    <li><a href="actual_pl.php">Aktualności</a></li>
-                    <li><a href="offer_pl.php">Oferta</a></li>
-                    <li class="last"><a href="contacts_pl.php">Kontakt</a></li>
-                </ul>
-            </div>
+            <?php include("/includes/footer_pl.html"); ?>
         </div>
     </body>
 </html>
