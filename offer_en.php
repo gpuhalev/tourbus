@@ -44,7 +44,7 @@
                     	<h1>Offer</h1>
                     </div>
                     <div id="page-text">
-						<p>"TOURING Bus" LTD could offer you vehicles for rent, which are in accordance with all European regularity for passengers road transport. The vehicles are <b>Mercedes</b>, <b>Bova</b> and <b>EOS</b> with 44, 49 and 57 passengers seats.</p>
+						<p>"TOURING Bus" LTD could offer you vehicles for rent, which are in accordance with all European regularity for passengers road transport. The vehicles are <b>LANHOL</b> with 49 passenger seats and <b>SETRA</b> with 24 passenger seats.
                     </div>
                 </div>
                 <div class="cl no-text"><!-- --></div>
