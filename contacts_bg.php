@@ -16,15 +16,7 @@
                 <div id="head-right">
                 	<?php require("/includes/langs_bg.html"); ?>
                     <div class="cl no-text"><!-- --></div>
-                    <div id="menu">
-                    	<ul>
-                        	<li><a href="home_bg.php">Начало</a></li>
-                        	<li><a href="destinations_bg.php">Линии</a></li>
-                        	<li><a href="actual_bg.php">Актуално</a></li>
-                        	<li><a href="offer_bg.php">Оферта</a></li>
-                        	<li class="last"><a href="contacts_bg.php" class="active">Контакти</a></li>
-                        </ul>
-                    </div>
+                    <?php require("/includes/menu-top/bg_contacts.html"); ?>
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>

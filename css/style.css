@@ -43,10 +43,11 @@
 	
 	#menu{width:614px; height:40px;}
 	#menu ul{list-style:none;}
-	#menu ul li{float:left; width:120px; text-align:center; padding-right:2px; height:40px; background:url(images/menu-div.png) right no-repeat;}
+	#menu ul li{float:left; width:110px; text-align:center; padding-right:2px; height:40px; background:url(images/menu-div.png) right no-repeat;}
 	#menu ul li.last{background:none; padding-right:0;}
 	#menu ul li a{line-height:40px; font-size:14px; font-weight:normal; color:#fff;}
 	#menu ul li a:hover, #menu ul li a.active{color:#f59800;}
+	#menu ul li.impinf{width:160px; color: #FFF;}
 /* --- END HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* --- START CENTER -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#content{width:924px; margin-top:20px;}

@@ -138,6 +138,16 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div id="page-text">
+                        <p><b>We offer a suitable coach connection, from and to Bulgaria with :</b></p>
+                        <p>
+                            &ndash; Baltic &ndash; Lithuania (Kaunas, Vilnius), Latvia (Riga), Estonia (Tallinn)<br />
+                            &ndash; Scandinavian countries &ndash; Finland (Helsinki), Sweden (Goteborg, Stockholm), Denmark (Kobenhavn), Norway (Oslo)<br />
+                            &ndash; Russia (Kaliningrad)<br />
+                            &ndash; Byelorussia (Minsk)
+                        </p>
+                        <p>The connections are from Czech Republic or Poland.</p>
+                    </div>
                     <center><a href="terms_en.php">Travel conditions</a></center></div>
                 </div>
                 <div class="cl no-text"><!-- --></div>

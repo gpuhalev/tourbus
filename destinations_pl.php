@@ -134,6 +134,16 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div id="page-text">
+                        <p><b>Możecie Państwu wygodnie podróżować naszymi autokarami z Bułgarii lub do Bułgarii z :</b></p>
+                        <p>
+                            &ndash; Państw Bałtyckich &ndash; Litwa (Kaunas, Wilno), Łotwa (Ryga), Estonia (Tallin)<br />
+                            &ndash; Skandynawii &ndash; Finlandia (Helsinki), Szwecja (Goeteborg, Sztokholm), Dania (Kopenhaga), Norwegia (Oslo)<br />
+                            &ndash; Rosji (Kaliningrad)<br />
+                            &ndash; Białorusi (Mińsk)
+                        </p>
+                        <p>Połączenia są realizowane przez Czechy i Polskę.</p>
+                    </div>
 						<center><a href="terms_pl.php">Regulamin przewozu</a></center></div>
                 </div>
                 <div class="cl no-text"><!-- --></div>

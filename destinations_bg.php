@@ -15,15 +15,7 @@
                 <div id="head-right">
                 	<?php require("/includes/langs_bg.html"); ?>
                     <div class="cl no-text"><!-- --></div>
-                    <div id="menu">
-                    	<ul>
-                        	<li><a href="home_bg.php">Начало</a></li>
-                        	<li><a href="destinations_bg.php" class="active">Линии</a></li>
-                        	<li><a href="actual_bg.php">Актуално</a></li>
-                        	<li><a href="offer_bg.php">Оферта</a></li>
-                        	<li class="last"><a href="contacts_bg.php">Контакти</a></li>
-                        </ul>
-                    </div>
+                    <?php require("/includes/menu-top/bg_destinations.html"); ?>
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
@@ -138,6 +130,16 @@
                                 </tr>
                             </tbody>
                         </table>
+                    <div id="page-text">
+                        <p><b>Предлагаме удобни автобусни връзки, от и до България с :</b></p>
+                        <p>
+                            &ndash; Прибалтийските държави &ndash; Литва (Каунас, Вилнюс), Латвия (Рига), Естония (Талин)<br />
+                            &ndash; Скандинавските страни &ndash; Финландия (Хелзинки), Швеция (Гьотеборг, Стокхолм), Дания (Копенхаген), Норвегия (Осло)<br />
+                            &ndash; Русия (Калининград)<br />
+                            &ndash; Беларус (Минск)
+                        </p>
+                        <p>Връзките се извършват през Чехия или Полша.</p>
+                    </div>
 				   <center><a href="terms_bg.php">Условия за пътуване</a> </center></div>
                 </div>
                 <div class="cl no-text"><!-- --></div>
