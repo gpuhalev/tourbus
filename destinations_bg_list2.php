@@ -166,15 +166,7 @@
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
-            <div id="footer">
-            	<ul>
-                    <li><a href="home_bg.php">Начало</a></li>
-                    <li><a href="destinations_bg.php">Линии</a></li>
-                    <li><a href="actual_bg.php">Актуално</a></li>
-                    <li><a href="offer_bg.php">Оферта</a></li>
-                    <li class="last"><a href="contacts_bg.php">Контакти</a></li>
-                </ul>
-            </div>
+            <?php include("/includes/footer_bg.html"); ?>
         </div>
     </body>
 </html>
