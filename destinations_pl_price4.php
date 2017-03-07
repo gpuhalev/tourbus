@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <?php require("/includes/title.html"); ?>
+        <?php require("includes/title.html"); ?>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" src="js/jquery.pngFix.js"></script>
@@ -13,15 +13,15 @@
 			<div id="header">
             	<h1 id="logo"><a href="home_pl.php" class="no-text" title="Touring.bg">TOURING</a></h1>
                 <div id="head-right">
-                	<?php require("/includes/langs_bg.html"); ?>
+                	<?php require("includes/langs_bg.html"); ?>
                     <div class="cl no-text"><!-- --></div>
-                    <?php require("/includes/menu-top/pl_destinations.html"); ?>
+                    <?php require("includes/menu-top/pl_destinations.html"); ?>
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
             <div id="content">
             	<div id="left">
-                	<?php require("/includes/readmore_wiki_pl.html"); ?>
+                	<?php require("includes/readmore_wiki_pl.html"); ?>
                     <div id="buylink" class="box"><h1 style="background: url('css/images/left-weather-head.png') repeat scroll 0 0 transparent;">E-Tickets:</h1><a style="width: 200px; margin: 5px auto; display: block;" href="https://eshop.amsbus.cz/tourbg/koupitjizdenku/" target="_blank"><img style="width: 100%;" alt="images/gosloto-video-process-click.gif" src="images/gosloto-video-process-click.gif"></a></div><div id="weather" class="box">
                     	<h1>Wiadomość:</h1>
                         <p style="padding:10px 20px 0;"><strong>Szanowni Państwo, możecie zarezerwować i kupić bilet przez E Pay i Easy Pay. </strong></p>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="cl no-text"><!-- --></div>
             </div>
-            <?php include("/includes/footer_pl.html"); ?>
+            <?php include("includes/footer_pl.html"); ?>
         </div>
     </body>
 </html>
