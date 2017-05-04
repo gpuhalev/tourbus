@@ -45,6 +45,6 @@ $(document).ready(function() {
             </div>
         </div>
         
-        <a href="newltd/index.php"><img id="the_pic" class="center fit" src="pictures/logo-tour-bus-redp.jpg" ></a>
+        <a href="index.php"><img id="the_pic" class="center fit" src="pictures/logo-tour-bus-redp.jpg" ></a>
     </body>
 </html>

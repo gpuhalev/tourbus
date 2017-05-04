@@ -28,10 +28,7 @@
                         <p style="padding:10px 20px 0;"><strong> Więcej informacji mogą Państwo uzyskać kontaktując sie z nami telefonicznie.</strong></p>
                     </div>
                     <div id="left-contacts">
-                    	<p>Adres: <b>WARSZAWA 00-728</b></p>
-                        <p><b>ul. "Bobrowiecka" 4, lok.4</b></p>
-                        <p>Mobile: <b>0048 607 185 278</b></p>
-                        <p>E-mail: <a href="mailto:touring.pl@touring.bg">touring.pl@touring.bg</a></p>
+                    	<?php include("includes/contacts_pl.html"); ?>
                     </div>
                 </div>
                 <div id="right">
