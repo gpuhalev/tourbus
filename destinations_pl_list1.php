@@ -1,4 +1,5 @@
 <?php include("weather.php"); ?>
+<?php require("includes/timetables/main.php") ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -40,7 +41,7 @@
                     <table class="destinations" border="0" cellpadding="0" cellspacing="0">
                         <tbody>
                              <tr>
-                                <th width="100" class="orange bold-big">13:00 &ndash; 5</th>
+                                <th width="100" class="orange bold-big"><?php echo $sofia; ?> &ndash; 5</th>
                                 <th class="white">SOFIA&nbsp;&nbsp;&nbsp;Dworzec Autobusowy &quot;Serdika&quot;</th>
                                 <th>&nbsp;</th>
                             </tr>
@@ -50,38 +51,38 @@
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">01:15 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $budapest; ?> &ndash; 6</td>
                                 <td class="white">BUDAPESZT &nbsp;&nbsp;&nbsp;Dworzec Autobusowy &quot;Orange Ways&quot;</td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">03:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $banskabistrica; ?> &ndash; 6</td>
                                 <td class="white">BAŃSKA BYSTRICA&nbsp;&nbsp;&nbsp; Dw. Autobusowy, st. 6</td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">09:00 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $krakow; ?> &ndash; 6</td>
                                 <td class="white">KRAKÓW&nbsp;&nbsp;&nbsp;RDA, ul.  &quot;Bosacka&quot; 18 – górna płyta</td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">11:00 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $katowice; ?> &ndash; 6</td>
                                 <td class="white">KATOWICE&nbsp;&nbsp;&nbsp;Dworzec PKS, ul.  &quot;P. Skargi&quot;</td>
                                 <td>&nbsp;</td>
                             </tr>
 							
 							<tr>
-                                <td class="orange bold-big">12:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $czestochowa; ?> &ndash; 6</td>
                                 <td class="white">CZĘSTOCHOWA&nbsp;&nbsp;&nbsp;Dworzec PKS, al.  &quot;Wolności&quot; 45, st. 13</td>
                                 <td>&nbsp;</td>
                             </tr>
 							<tr>
-                                <td class="orange bold-big">14:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $ludz; ?> &ndash; 6</td>
                                 <td class="white">ŁÓDŹ&nbsp;&nbsp;&nbsp;Dworzec PKP Łódź  Kaliska, ul. &quot;Karolewska&quot; 55, przed głównym wejściem – stanowisko  SINDBAD</td>
                                 <td>&nbsp;</td>
                             </tr>
 							<tr>
-                                <td class="orange bold-big">16:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $warszawa; ?> &ndash; 6</td>
                                 <td class="white">WARSZAWA&nbsp;&nbsp;&nbsp;Dworzec  &quot;Zachodni&quot; PKS, stan. &quot;Międzynarodowe&quot;</td>
                                 <td>&nbsp;</td>
                             </tr>

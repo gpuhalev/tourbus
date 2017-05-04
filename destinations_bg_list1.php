@@ -1,4 +1,5 @@
 <?php include("weather.php"); ?>
+<?php require("includes/timetables/main.php")?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -48,7 +49,7 @@
                     <table class="destinations" border="0" cellpadding="0" cellspacing="0">
                         <thead>
                             <tr>
-                                <th width="100" class="orange">13:00 &ndash; 5</th>
+                                <th width="100" class="orange"><?php echo $sofia;?> &ndash; 5</th>
                                 <th width="410" class="white">СОФИЯ&nbsp;&nbsp;&nbsp;Автогара "Сердика"</th>
                                 <th width="100">&nbsp;</th>
                             </tr>
@@ -60,37 +61,37 @@
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">01:15 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $budapest;?> &ndash; 6</td>
                                 <td class="white">БУДАПЕЩА&nbsp;&nbsp;&nbsp;Автогара "Ориндж уейс"</td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">03:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $banskabistrica;?> &ndash; 6</td>
                                 <td class="white">БАНСКА БИСТРИЦА&nbsp;&nbsp;&nbsp;Автогара, с-р №6</td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">09:00 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $krakow;?> &ndash; 6</td>
                                 <td class="white">КРАКОВ&nbsp;&nbsp;&nbsp;PKS Автогара, ул. &quot;Босацка&quot; №18 - горно ниво</td>
                                 <td>&nbsp;</td>
                             </tr>
                            <tr>
-                                <td class="orange bold-big">11:00 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $katowice;?> &ndash; 6</td>
                                 <td class="gray">КАТОВИЦЕ &nbsp;&nbsp;&nbsp;PKS Автогара, ул. &quot;Пьотра Скарги&quot;</td>
                                 <td>&nbsp;</td>
                             </tr>
 							<tr>
-                                <td class="orange bold-big">12:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $czestochowa;?> &ndash; 6</td>
                                 <td class="gray">ЧЕНСТОХОВА&nbsp;&nbsp;&nbsp;PKS Автогара, алея &quot;Волношчи&quot; №45, перон №13</td>
                                 <td>&nbsp;</td>
                             </tr>
 							<tr>
-                                <td class="orange bold-big">14:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $ludz;?> &ndash; 6</td>
                                 <td class="white"><span class="gray">ЛУДЖ&nbsp;&nbsp;&nbsp; ЖП гара &quot;ЛУДЖ Калиска&quot;, ул. &quot;Каролевска&quot; №55, пред главния вход - перон &quot;Синдбад&quot;</span></td>
                                 <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td class="orange bold-big">16:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $warszawa;?> &ndash; 6</td>
                                 <td class="white">ВАРШАВА&nbsp;&nbsp;&nbsp;PKS Автогара &quot;Заходни&quot;</td>
                                 <td>&nbsp;</td>
                             </tr>

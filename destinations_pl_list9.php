@@ -1,4 +1,5 @@
 <?php include("weather.php"); ?>
+<?php require("includes/timetables/main.php")?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -39,14 +40,14 @@
                     <table class="destinations" border="0" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr>
-							 <th width="100" class="orange">01:15 &ndash; 6</th>
+							 <th width="100" class="orange"><?php echo $budapest; ?> &ndash; 6</th>
                                 <th width="410" class="white">BUDAPESZT&nbsp;&nbsp;&nbsp;<strong>Dworzec Autobusowy &quot;Orange Ways&quot;</strong></th>
                                 <th width="100">&nbsp;</th>
 								
                                
                             </tr>
                             <tr>
-                                <td class="orange bold-big">03:30 &ndash; 6</td>
+                                <td class="orange bold-big"><?php echo $banskabistrica; ?> &ndash; 6</td>
                                 <td class="white">BAŃSKA BYSTRICA  Dw.  Autobusowy, st. 6</td>
                                 <td>&nbsp;</td>
                             </tr>
